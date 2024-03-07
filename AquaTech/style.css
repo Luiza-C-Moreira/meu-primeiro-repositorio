@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: black;
+    color: beige;
+}
+
+.header{
+    border-bottom: 4px solid #32b9cd;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo{
+ color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 350px;
+    color: #e3b062;
+    align-items: center;
+}
